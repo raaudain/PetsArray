@@ -73,7 +73,7 @@ function sumPetYears(arr, kind, multiply) {
 
   const sum = ages.reduce((acc, results) => acc += results, 0);
 
-  console.log(`The ${species}s' combined ages: ${sum * multiply}.`)
+  console.log(`The ${species}s' combined ages: ${sum * multiply}.`);
 }
 
 sumPetYears(pets, 'dog', 7);
