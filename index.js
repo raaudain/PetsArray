@@ -64,7 +64,6 @@
 
 
 function sumPetYears(arr, kind, multiply) {
-
   let ages = [];
   let species = "";
 
